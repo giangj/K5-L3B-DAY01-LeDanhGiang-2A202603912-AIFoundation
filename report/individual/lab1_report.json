@@ -1,0 +1,81 @@
+{
+ "seed": 4493,
+ "predictions": {
+  "ml_f1": {
+   "text": "0",
+   "time": "09:46:20"
+  },
+  "dl_curve": {
+   "text": "0.7",
+   "time": "09:27:31"
+  },
+  "ml_lr": {
+   "text": "0.001",
+   "time": "09:53:01"
+  }
+ },
+ "checks": {
+  "1.1 vectorize": false,
+  "1.2 sigmoid / predict_proba": false,
+  "1.3 train_logreg": false,
+  "1.4 metrics": false,
+  "2.1 build_mlp": false,
+  "2.2 train_mlp": false
+ },
+ "experiments": [
+  {
+   "key": "ml_f1",
+   "time": "09:03:17"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:03:28"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:03:40"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:09:30"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:10:08"
+  },
+  {
+   "key": "dl_curve",
+   "time": "09:15:57"
+  },
+  {
+   "key": "dl_curve",
+   "time": "09:27:34"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:43:18"
+  },
+  {
+   "key": "ml_f1",
+   "time": "09:46:24"
+  },
+  {
+   "key": "ml_lr",
+   "time": "09:53:05"
+  }
+ ],
+ "results": {
+  "1. BoW + LogReg (tự code)": {
+   "accuracy": 0.9767741935483871,
+   "precision": 0.9878048780487805,
+   "recall": 0.826530612244898,
+   "f1": 0.9,
+   "f1_SUB": 0.787878787878788,
+   "train_s": 2.9840850350001347,
+   "msg_per_s": 47258.9763226828,
+   "p50_ms": 0.06369699985953048,
+   "p95_ms": 0.11080220028816255,
+   "usd_per_1k": 0.0
+  }
+ }
+}
